@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+        }
+
+        .title {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .title h1 {
+            color: #007bff;
+        }
+
+        .accordion {
+            width: 90%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="title">
+        <h1>React - Components, State, Props</h1>
+    </header>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    What is React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <strong>React.js is an open-source JavaScript library.</strong> It is used for building user
+                    interfaces. It is efficient, and flexible. React makes it easy to create interactive UIs by using a
+                    component-based approach. It is used to create a single page application. It is fast. It is used for
+                    handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer
+                    at Facebook. React was first deployed on Facebook's newsfeed in 2011 and on Instagram.com in 2012.
+                    <code>Code :npx create-react-app App-Name</code>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    What is NPM in React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <strong>Npm is Node Package Manager.</strong> It is a package manager in Javascript. It is the
+                    default package manager for the javascript runtime environment Node.js. It is a manages the package
+                    and for installing Node.js packages in the project. It is used to create a Node Module and a
+                    package.Json file for the project and primarily for managing dependencies and packages for
+                    Node.js-based projects, although it can also be used for managing front-end JavaScript libraries and
+                    tools.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    What is Role of Node Js in react Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <strong>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs
+                        on the
+                        V8 engine and executes JavaScript code outside a web browser.</strong> It is used to execute
+                    JavaScript
+                    code on the server side. As reactjs is build in Js Language so to run it is necessary to have
+                    Node.js
+                    installed in the system. It is used to create a server and to run the react application. It is used
+                    to
+                    create a server and to run the react application and Also to get necessary packages and dependencies
+                    for the
+                    project.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapsefour">
+                    What is CLI command In React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfour">
+                <div class="accordion-body">
+                    <strong>CLI is Command Line Interface.</strong> It is used to create a new project in react. It is
+                    used to
+                    create a new component in the project. It is used to create a new file in the project. It is used to
+                    run the
+                    project. It is used to build the project. It is used to deploy the project. It is used to get the
+                    necessary
+                    packages and dependencies for the project. It is used to install the necessary packages and
+                    dependencies for
+                    the project. It is used to uninstall the unnecessary packages and dependencies for the project.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapsefive">
+                    What is Components in React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                    <strong>Components are the building blocks of any React application.</strong> A component is a
+                    reusable piece of code that is responsible for rendering a part of the UI. It is a collection of
+                    JavaScript functions and HTML tags. It is used to create a new component in the project. It is used
+                    to create a new file in the project. It is used to run the project. It is used to build the project.
+                    It is used to deploy the project. It is used to get the necessary packages and dependencies for the
+                    project. It is used to install the necessary packages and dependencies for the project. It is used
+                    to uninstall the unnecessary packages and dependencies for the project.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingsix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapsesix">
+                    What is Header and Content Components in React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingsix">
+                <div class="accordion-body">
+                    <strong>A header is a section at the top of a page that displays site name and navigation.</strong> 
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingseven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseseven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseseven">
+                    How to install React Js on Windows, linux Operating System? How to install NPM and How to check version of NPM?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseseven" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingseven">
+                <div class="accordion-body">
+                    <strong><code>Step 1: Install Node.js</code></strong>
+                    <br/>
+                    <strong><code>Step 2: Install Create-React-App</code></strong>
+                    <br/>
+                    <strong><code>Step 3: Create a New React App</code></strong>
+                    <br/>
+                    <strong><code>Step 4: Run the React App</code></strong>
+                    <br/>
+                    <strong><code>Step 5: Install NPM</code></strong>
+                    <br/>
+                    <strong><code>Step 6: Check the version of NPM</code></strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingeight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseeight" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseeight">
+                    How to check version of React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseeight" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingeight">
+                <div class="accordion-body">
+                    <strong>Step 1: Open the terminal</strong>
+                    <br/>
+                    <strong>Step 2: Go to the project directory</strong>
+                    <br/>
+                    <strong>Step 3: Run the command <code>npm view react version</code></strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingnine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapsenine" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapsenine">
+                    How to change in components of React Js?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsenine" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingnine">
+                <div class="accordion-body">
+                    In React, to change components, we can use the following methods:
+                    <br/>
+                    <strong>State</strong>
+                    <br/>
+                    <strong><code>import { useState } from 'React'</code></strong>
+                    <br/>
+                    <strong><code>const [state, setState] = useState("") </code></strong>
+                    <br/>
+                    <strong>Where State is a variable and setState is a function to change the state </strong>
+                    <br/>
+                    <strong>Where <code>useState("") </code>is use to intialize the state value</strong>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
